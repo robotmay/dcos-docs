@@ -26,7 +26,7 @@ This page provides instructions on how to contribute to the DC/OS documentation.
 1. Make your changes.
 1. Commit your changes (e.g. `git commit -am "These are my changes"`).
 1. Push your changes upstream (e.g. `git push origin <your-name>/<your-branch-name>`).
-1. Submit a [pull request](https://help.github.com/articles/using-pull-requests/) to `dcos-docs-enterprise`.
+1. Submit a [pull request](https://help.github.com/articles/using-pull-requests/) to `dcos-docs`.
 
 ### Detailed
 
