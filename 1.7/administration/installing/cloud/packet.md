@@ -79,7 +79,9 @@ The included Terraform templates are configured to run Mesosphere DC/OS on Packe
 
     - key_file_path - The path to your ssh private key created in step 4 - defaults to ./packet-key
 
-5.  Also from that same directory, run `terraform apply` which will deploy the servers into your project at Packet, and run the DC/OS installation routine. When it completes, you will see output similar to the following, but with the IP addresses assigned to your servers:
+5.  Before applying the configuration, you will need to initialize the Packet.net terraform provider with `terraform init`.
+
+6.  Also from that same directory, run `terraform apply` which will deploy the servers into your project at Packet, and run the DC/OS installation routine. When it completes, you will see output similar to the following, but with the IP addresses assigned to your servers:
 
     ![terraform apply output](../../../img/packet_terraform_output.png)
 
